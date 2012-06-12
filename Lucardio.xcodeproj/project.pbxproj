@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A362617158784A100AE978C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A362616158784A100AE978C /* UIKit.framework */; };
+		8A362619158784A100AE978C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A362618158784A100AE978C /* Foundation.framework */; };
+		8A36261B158784A100AE978C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A36261A158784A100AE978C /* CoreGraphics.framework */; };
+		8A362621158784A100AE978C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A36261F158784A100AE978C /* InfoPlist.strings */; };
+		8A362623158784A100AE978C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A362622158784A100AE978C /* main.m */; };
+		8A362627158784A100AE978C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A362626158784A100AE978C /* AppDelegate.m */; };
+		8A36262A158784A100AE978C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A362629158784A100AE978C /* ViewController.m */; };
+		8A36262D158784A100AE978C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A36262B158784A100AE978C /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A362612158784A100AE978C /* Lucardio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucardio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A362616158784A100AE978C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A362618158784A100AE978C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A36261A158784A100AE978C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A36261E158784A100AE978C /* Lucardio-Info.plist */ = {isa = PBXFileReference; path = "Lucardio-Info.plist"; sourceTree = "<group>"; };
+		8A362620158784A100AE978C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A362622158784A100AE978C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A362624158784A100AE978C /* Lucardio-Prefix.pch */ = {isa = PBXFileReference; path = "Lucardio-Prefix.pch"; sourceTree = "<group>"; };
+		8A362625158784A100AE978C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A362626158784A100AE978C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A362628158784A100AE978C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		8A362629158784A100AE978C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A36262C158784A100AE978C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A36260F158784A100AE978C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A362617158784A100AE978C /* UIKit.framework in Frameworks */,
+				8A362619158784A100AE978C /* Foundation.framework in Frameworks */,
+				8A36261B158784A100AE978C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A362607158784A100AE978C = {
+			isa = PBXGroup;
+			children = (
+				8A36261C158784A100AE978C /* Lucardio */,
+				8A362615158784A100AE978C /* Frameworks */,
+				8A362613158784A100AE978C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A362613158784A100AE978C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A362612158784A100AE978C /* Lucardio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A362615158784A100AE978C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A362616158784A100AE978C /* UIKit.framework */,
+				8A362618158784A100AE978C /* Foundation.framework */,
+				8A36261A158784A100AE978C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A36261C158784A100AE978C /* Lucardio */ = {
+			isa = PBXGroup;
+			children = (
+				8A362625158784A100AE978C /* AppDelegate.h */,
+				8A362626158784A100AE978C /* AppDelegate.m */,
+				8A362628158784A100AE978C /* ViewController.h */,
+				8A362629158784A100AE978C /* ViewController.m */,
+				8A36262B158784A100AE978C /* ViewController.xib */,
+				8A36261D158784A100AE978C /* Supporting Files */,
+			);
+			path = Lucardio;
+			sourceTree = "<group>";
+		};
+		8A36261D158784A100AE978C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A36261E158784A100AE978C /* Lucardio-Info.plist */,
+				8A36261F158784A100AE978C /* InfoPlist.strings */,
+				8A362622158784A100AE978C /* main.m */,
+				8A362624158784A100AE978C /* Lucardio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A362611158784A100AE978C /* Lucardio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A362630158784A100AE978C /* Build configuration list for PBXNativeTarget "Lucardio" */;
+			buildPhases = (
+				8A36260E158784A100AE978C /* Sources */,
+				8A36260F158784A100AE978C /* Frameworks */,
+				8A362610158784A100AE978C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lucardio;
+			productName = Lucardio;
+			productReference = 8A362612158784A100AE978C /* Lucardio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A362609158784A100AE978C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Keaton Burleson";
+			};
+			buildConfigurationList = 8A36260C158784A100AE978C /* Build configuration list for PBXProject "Lucardio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A362607158784A100AE978C;
+			productRefGroup = 8A362613158784A100AE978C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A362611158784A100AE978C /* Lucardio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A362610158784A100AE978C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A362621158784A100AE978C /* InfoPlist.strings in Resources */,
+				8A36262D158784A100AE978C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A36260E158784A100AE978C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A362623158784A100AE978C /* main.m in Sources */,
+				8A362627158784A100AE978C /* AppDelegate.m in Sources */,
+				8A36262A158784A100AE978C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A36261F158784A100AE978C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A362620158784A100AE978C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A36262B158784A100AE978C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A36262C158784A100AE978C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A36262E158784A100AE978C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A36262F158784A100AE978C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A362631158784A100AE978C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lucardio/Lucardio-Prefix.pch";
+				INFOPLIST_FILE = "Lucardio/Lucardio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A362632158784A100AE978C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lucardio/Lucardio-Prefix.pch";
+				INFOPLIST_FILE = "Lucardio/Lucardio-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A36260C158784A100AE978C /* Build configuration list for PBXProject "Lucardio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A36262E158784A100AE978C /* Debug */,
+				8A36262F158784A100AE978C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A362630158784A100AE978C /* Build configuration list for PBXNativeTarget "Lucardio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A362631158784A100AE978C /* Debug */,
+				8A362632158784A100AE978C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A362609158784A100AE978C /* Project object */;
+}
