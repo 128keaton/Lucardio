@@ -39,7 +39,7 @@
 - (IBAction)addToLib:(id)sender{
     
     
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"pass" ofType:@"pkpass"];  
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Starbucks" ofType:@"pkpass"];  
     
     NSData *data = [NSData dataWithContentsOfFile:filePath];
     
@@ -60,7 +60,7 @@
 - (IBAction)addToLib2:(id)sender{
     
     
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"example" ofType:@"pkpass"];  
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"TextExample" ofType:@"pkpass"];  
     
     NSData *data = [NSData dataWithContentsOfFile:filePath];
     
