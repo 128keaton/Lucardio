@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		8A205C311587DDB90001D69E /* TestExample.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = 8A205C301587DDB90001D69E /* TestExample.pkpass */; };
 		8A205C351587E2B00001D69E /* example2.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = 8A205C341587E2B00001D69E /* example2.pkpass */; };
-		8A2B02601589344000798C90 /* Starbucks.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = 8A2B025F1589344000798C90 /* Starbucks.pkpass */; };
+		8A2B026A15893D0A00798C90 /* Sodeso.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = 8A2B026915893D0A00798C90 /* Sodeso.pkpass */; };
+		8A2B026C1589413A00798C90 /* Starbucks.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = 8A2B026B1589413A00798C90 /* Starbucks.pkpass */; };
 		8A362617158784A100AE978C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A362616158784A100AE978C /* UIKit.framework */; };
 		8A362619158784A100AE978C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A362618158784A100AE978C /* Foundation.framework */; };
 		8A36261B158784A100AE978C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A36261A158784A100AE978C /* CoreGraphics.framework */; };
@@ -24,7 +25,8 @@
 /* Begin PBXFileReference section */
 		8A205C301587DDB90001D69E /* TestExample.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; name = TestExample.pkpass; path = ../TestExample.pkpass; sourceTree = "<group>"; };
 		8A205C341587E2B00001D69E /* example2.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = example2.pkpass; sourceTree = "<group>"; };
-		8A2B025F1589344000798C90 /* Starbucks.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starbucks.pkpass; sourceTree = "<group>"; };
+		8A2B026915893D0A00798C90 /* Sodeso.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sodeso.pkpass; sourceTree = "<group>"; };
+		8A2B026B1589413A00798C90 /* Starbucks.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starbucks.pkpass; sourceTree = "<group>"; };
 		8A362612158784A100AE978C /* Lucardio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lucardio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A362616158784A100AE978C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8A362618158784A100AE978C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,7 +61,8 @@
 		8A2B025E15892D3100798C90 /* Passes */ = {
 			isa = PBXGroup;
 			children = (
-				8A2B025F1589344000798C90 /* Starbucks.pkpass */,
+				8A2B026915893D0A00798C90 /* Sodeso.pkpass */,
+				8A2B026B1589413A00798C90 /* Starbucks.pkpass */,
 				8A205C301587DDB90001D69E /* TestExample.pkpass */,
 			);
 			name = Passes;
@@ -174,7 +177,8 @@
 				8A36262D158784A100AE978C /* ViewController.xib in Resources */,
 				8A205C311587DDB90001D69E /* TestExample.pkpass in Resources */,
 				8A205C351587E2B00001D69E /* example2.pkpass in Resources */,
-				8A2B02601589344000798C90 /* Starbucks.pkpass in Resources */,
+				8A2B026A15893D0A00798C90 /* Sodeso.pkpass in Resources */,
+				8A2B026C1589413A00798C90 /* Starbucks.pkpass in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

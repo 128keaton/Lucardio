@@ -21,4 +21,6 @@
 
 - (IBAction)addToLib2;
 
+- (IBAction)addToLib3;
+
 @end

@@ -78,6 +78,27 @@
     NSLog(@"hullo!" );
 }
 
+- (IBAction)addToLib3:(id)sender{
+    
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Sodeso" ofType:@"pkpass"];  
+    
+    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    
+    NSError *error;
+    
+    PKPass *pass = [[PKPass alloc] initWithData:data error:&error];     
+    
+    PKAddPassesViewController *vc = [[PKAddPassesViewController alloc] initWithPass:pass];
+    
+    [vc setDelegate:self];
+    
+    [self presentViewController:vc animated:YES completion:nil];
+    
+	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"hullo!" );
+}
+
 
 
 @end
