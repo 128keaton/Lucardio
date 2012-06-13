@@ -11,11 +11,14 @@
 @interface ViewController : UIViewController{
     
     UIButton *addButton;
+    
 }
 
 
 @property (nonatomic, retain) IBOutlet UIButton *addButton;
 
 - (IBAction)addToLib;
+
+- (IBAction)addToLib2;
 
 @end
