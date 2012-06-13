@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "PassKit/PassKit.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -30,5 +35,28 @@
 {
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
+
+- (IBAction)addToLib:(id)sender{
+    
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"pass" ofType:@"pkpass"];  
+    
+    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    
+    NSError *error;
+    
+    PKPass *pass = [[PKPass alloc] initWithData:data error:&error];     
+    
+    PKAddPassesViewController *vc = [[PKAddPassesViewController alloc] initWithPass:pass];
+    
+    [vc setDelegate:self];
+    
+    [self presentViewController:vc animated:YES completion:nil];
+    
+	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"hullo!" );
+}
+
+
 
 @end
