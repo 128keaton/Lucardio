@@ -8,19 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController{
-    
-    UIButton *addButton;
-    
-}
+@interface ViewController : UIViewController
 
 
-@property (nonatomic, retain) IBOutlet UIButton *addButton;
 
-- (IBAction)addToLib;
 
-- (IBAction)addToLib2;
 
-- (IBAction)addToLib3;
+
 
 @end
