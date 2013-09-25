@@ -7,13 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <PassKit/PassKit.h>
+@interface ViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource,
+PKAddPassesViewControllerDelegate>
+{
+      NSMutableArray *_passes; //3
+}
 
-@interface ViewController : UIViewController
 
-
-
-
-
+@property (strong, nonatomic) IBOutlet UITableViewCell *starbucksButtonCell;
+@property (strong, nonatomic) IBOutlet UITableViewCell *exampleButtonCell;
+@property (strong, nonatomic) IBOutlet UITableViewCell *sodesoButtonCell;
+@property (strong, nonatomic) IBOutlet UITableViewCell *targetButtonCell;
+@property (nonatomic, strong) NSString *passname;
 
 
 @end
