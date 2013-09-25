@@ -1,4 +1,1 @@
-How to use:
-go to: https://devforums.apple.com/message/674055 to learn more!
-
-Currently, I havent got it to work with the latest beta. Go crazy.
+Just compile then push to a device. Requires iOS 7+. iOS 6 version will come in a separate repository.
