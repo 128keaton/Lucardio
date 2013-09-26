@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		539533201ED94284883E10DC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7273775E404CF3AE227E89 /* libPods.a */; };
 		8A362617158784A100AE978C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A362616158784A100AE978C /* UIKit.framework */; };
 		8A362619158784A100AE978C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A362618158784A100AE978C /* Foundation.framework */; };
 		8A36261B158784A100AE978C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A36261A158784A100AE978C /* CoreGraphics.framework */; };
@@ -15,10 +16,13 @@
 		8A362627158784A100AE978C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A362626158784A100AE978C /* AppDelegate.m */; };
 		8A36262A158784A100AE978C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A362629158784A100AE978C /* ViewController.m */; };
 		8A3626351587872800AE978C /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3626341587872800AE978C /* PassKit.framework */; };
+		8A39897117F397F800FDA25F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A39897017F397F800FDA25F /* CFNetwork.framework */; };
 		8A722B1017F23F7C004476C6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A722B0F17F23F7C004476C6 /* Default-568h@2x.png */; };
 		8A722B1217F24016004476C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A722B1117F24016004476C6 /* Main.storyboard */; };
 		8A722B1917F27F58004476C6 /* Air Transit.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = 8A722B1817F27F58004476C6 /* Air Transit.pkpass */; };
 		8A722B1B17F28066004476C6 /* Coupon.pkpass in Resources */ = {isa = PBXBuildFile; fileRef = 8A722B1A17F28066004476C6 /* Coupon.pkpass */; };
+		8A93942617F4B3C5003C56C7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A93942517F4B3C5003C56C7 /* SystemConfiguration.framework */; };
+		8A93942B17F4B4D0003C56C7 /* PassServe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93942A17F4B4D0003C56C7 /* PassServe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +39,16 @@
 		8A362628158784A100AE978C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8A362629158784A100AE978C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8A3626341587872800AE978C /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		8A39897017F397F800FDA25F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		8A722B0F17F23F7C004476C6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8A722B1117F24016004476C6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8A722B1817F27F58004476C6 /* Air Transit.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Air Transit.pkpass"; sourceTree = "<group>"; };
 		8A722B1A17F28066004476C6 /* Coupon.pkpass */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coupon.pkpass; sourceTree = "<group>"; };
+		8A93942517F4B3C5003C56C7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8A93942917F4B4D0003C56C7 /* PassServe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PassServe.h; path = ../PassServe.h; sourceTree = "<group>"; };
+		8A93942A17F4B4D0003C56C7 /* PassServe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PassServe.m; path = ../PassServe.m; sourceTree = "<group>"; };
+		AB7273775E404CF3AE227E89 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BC1CED426C4A80A5FC7120 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +56,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A93942617F4B3C5003C56C7 /* SystemConfiguration.framework in Frameworks */,
+				8A36261B158784A100AE978C /* CoreGraphics.framework in Frameworks */,
+				8A39897117F397F800FDA25F /* CFNetwork.framework in Frameworks */,
 				8A3626351587872800AE978C /* PassKit.framework in Frameworks */,
 				8A362617158784A100AE978C /* UIKit.framework in Frameworks */,
 				8A362619158784A100AE978C /* Foundation.framework in Frameworks */,
-				8A36261B158784A100AE978C /* CoreGraphics.framework in Frameworks */,
+				539533201ED94284883E10DC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +86,7 @@
 				8A36261C158784A100AE978C /* Lucardio */,
 				8A362615158784A100AE978C /* Frameworks */,
 				8A362613158784A100AE978C /* Products */,
+				C0BC1CED426C4A80A5FC7120 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,10 +101,13 @@
 		8A362615158784A100AE978C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A93942517F4B3C5003C56C7 /* SystemConfiguration.framework */,
+				8A39897017F397F800FDA25F /* CFNetwork.framework */,
 				8A3626341587872800AE978C /* PassKit.framework */,
 				8A362616158784A100AE978C /* UIKit.framework */,
 				8A362618158784A100AE978C /* Foundation.framework */,
 				8A36261A158784A100AE978C /* CoreGraphics.framework */,
+				AB7273775E404CF3AE227E89 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,6 +127,8 @@
 		8A36261D158784A100AE978C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8A93942917F4B4D0003C56C7 /* PassServe.h */,
+				8A93942A17F4B4D0003C56C7 /* PassServe.m */,
 				8A36261E158784A100AE978C /* Lucardio-Info.plist */,
 				8A36261F158784A100AE978C /* InfoPlist.strings */,
 				8A2B025E15892D3100798C90 /* Passes */,
@@ -126,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A362630158784A100AE978C /* Build configuration list for PBXNativeTarget "Lucardio" */;
 			buildPhases = (
+				B3D5731E672348DFA676E05F /* Check Pods Manifest.lock */,
 				8A36260E158784A100AE978C /* Sources */,
 				8A36260F158784A100AE978C /* Frameworks */,
 				8A362610158784A100AE978C /* Resources */,
+				E162FAC1305442B5BE763C27 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +201,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B3D5731E672348DFA676E05F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E162FAC1305442B5BE763C27 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A36260E158784A100AE978C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -187,6 +241,7 @@
 			files = (
 				8A362623158784A100AE978C /* main.m in Sources */,
 				8A362627158784A100AE978C /* AppDelegate.m in Sources */,
+				8A93942B17F4B4D0003C56C7 /* PassServe.m in Sources */,
 				8A36262A158784A100AE978C /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +280,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -244,7 +299,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -253,12 +308,18 @@
 		};
 		8A362631158784A100AE978C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BC1CED426C4A80A5FC7120 /* Pods.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/keatonburleson/Documents/Lucardio,
+					/Users/keatonburleson/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Lucardio/Lucardio-Prefix.pch";
 				INFOPLIST_FILE = "Lucardio/Lucardio-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -266,12 +327,18 @@
 		};
 		8A362632158784A100AE978C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BC1CED426C4A80A5FC7120 /* Pods.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/keatonburleson/Documents/Lucardio,
+					/Users/keatonburleson/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Lucardio/Lucardio-Prefix.pch";
 				INFOPLIST_FILE = "Lucardio/Lucardio-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

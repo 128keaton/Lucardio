@@ -12,6 +12,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <webView key="tableHeaderView" contentMode="scaleToFill" id="6hM-B6-BGR">
+                            <rect key="frame" x="0.0" y="64" width="320" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </webView>
+                        <activityIndicatorView key="tableFooterView" hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="J1z-m0-HZI">
+                            <rect key="frame" x="0.0" y="130" width="320" height="20"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </activityIndicatorView>
                         <prototypes>
                             <tableViewCell tag="2" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" textLabel="m74-U8-qC5" style="IBUITableViewCellStyleDefault" id="YXY-xA-pa6">
                                 <rect key="frame" x="0.0" y="86" width="320" height="44"/>
@@ -37,7 +46,18 @@
                             <outlet property="delegate" destination="qgQ-c7-j7y" id="aeV-E3-1OE"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Passes" id="OsN-P8-oOt"/>
+                    <navigationItem key="navigationItem" title="Passes" id="OsN-P8-oOt">
+                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="Kzj-wL-C1U">
+                            <connections>
+                                <action selector="create:" destination="qgQ-c7-j7y" id="5mo-AL-fLi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="refreshview" destination="BS8-IG-Fwe" id="yS8-qQ-14H"/>
+                        <outlet property="spinny" destination="J1z-m0-HZI" id="f8R-al-lOt"/>
+                        <outlet property="webView" destination="6hM-B6-BGR" id="N3C-qL-FtD"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gPn-p4-Dkc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
