@@ -11,7 +11,11 @@
 @interface ViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource,
 PKAddPassesViewControllerDelegate>
 {
-      NSMutableArray *_passes; //3
+    NSMutableArray *_passes; //3
+    IBOutlet UIWebView *webView;
+    IBOutlet UIActivityIndicatorView *spinny;
+    IBOutlet UITableView *refreshview;
+    int addone;
 }
 
 
