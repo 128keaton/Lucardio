@@ -5,7 +5,7 @@ Platform to test Passbook.
 
 Requirements:
 ------------
-AFNetworking - https://github.com/AFNetworking/AFNetworking
+AFNetworking - https://github.com/AFNetworking/AFNetworking  
 Cocoapods - http://cocoapods.org
 
 Compatibility
